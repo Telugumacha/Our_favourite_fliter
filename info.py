@@ -25,9 +25,9 @@ CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
 PICS = (environ.get('PICS', 'https://telegra.ph/file/61ef9818986cef9554017.jpg https://telegra.ph/file/4696ff67a5bae3ea92c14.jpg')).split()
-NOR_IMG = environ.get("NOR_IMG", "https://telegra.ph/file/61ef9818986cef9554017.jpg")
-MELCOW_VID = environ.get("MELCOW_VID", "https://telegra.ph/file/61ef9818986cef9554017.jpg")
-SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/61ef9818986cef9554017.jpg")
+NOR_IMG = environ.get("NOR_IMG", "https://telegra.ph/file/96cec9ba062bc081eee88.jpg")
+MELCOW_VID = environ.get("MELCOW_VID", "https://telegra.ph/file/96cec9ba062bc081eee88.jpg")
+SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/96cec9ba062bc081eee88.jpg")
 
 # Admins, Channels & User
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '').split()]
@@ -79,23 +79,23 @@ APPROVED = environ.get("APPROVED_WELCOME", "on").lower()
 
 # Others
 IS_VERIFY = bool(environ.get('IS_VERIFY', False))
-VERIFY2_URL = environ.get('VERIFY2_URL', "tnshort.net")
-VERIFY2_API = environ.get('VERIFY2_API', "0c8ebd63bfe9f67f9970b8767498ff60316b9b03")
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'Onepagelink.in')
-SHORTLINK_API = environ.get('SHORTLINK_API', '8c09653e5c38f84d1b76ad3197c5a023e53b494d')
+VERIFY2_URL = environ.get('VERIFY2_URL', "moneycase.link")
+VERIFY2_API = environ.get('VERIFY2_API', "580a96594d27d0ece3b4734284ecff4d2246d57e)
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'moneycase.link')
+SHORTLINK_API = environ.get('SHORTLINK_API', '580a96594d27d0ece3b4734284ecff4d2246d57e')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
 NO_RESULTS_MSG = bool(environ.get('NO_RESULTS_MSG', True))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "8")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
-S_GROUP = environ.get('S_GROUP',"https://telegram.me/BotszSupport")
+S_GROUP = environ.get('S_GROUP',"https://t.me/telugu_macha_group")
 RUL_LNK = environ.get('RUL_LNK',"https://graph.org/%F0%9D%97%A0%F0%9D%9E%93%F0%9D%97%A6%F0%9D%97%A7%F0%9D%9E%9D%F0%9D%97%A5-02-15")
-MAIN_CHANNEL = environ.get('MAIN_CHANNEL',"https://telegram.me/NobiDeveloper")
-GRP_LNK = environ.get('GRP_LNK', 'https://telegram.me/BotszSupport')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://telegram.me/BotszList')
-OWN_LNK = environ.get('S_GROUP',"https://telegram.me/NobiDeveloperr")
-MVG_LNK = environ.get('S_GROUP',"https://telegram.me/AllRequestGroups")
+MAIN_CHANNEL = environ.get('MAIN_CHANNEL',"https://t.me/Telugu_machaa")
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/telugu_macha_group')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/Telugu_machaa')
+OWN_LNK = environ.get('S_GROUP',"https://t.me/Telugu_machaa")
+MVG_LNK = environ.get('S_GROUP',"https://t.me/telugu_macha_group")
 MSG_ALRT = environ.get('MSG_ALRT', 'ꜱʜᴀʀᴇ  ᴀɴᴅ  ꜱᴜᴘᴘᴏʀᴛ  ᴜꜱ')
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', ''))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'BotszSupport')
@@ -117,7 +117,7 @@ PROTECT_CONTENT = is_enabled((environ.get('PROTECT_CONTENT', "False")), False)
 PUBLIC_FILE_STORE = is_enabled((environ.get('PUBLIC_FILE_STORE', "True")), True)
 
 LANGUAGES = ["hindi", "hin", "tamil", "tam", "telugu", "tel", "english", "eng", "kannada", "kan", "malayalam", "mal"]
-TUTORIAL = environ.get('TUTORIAL', 'https://youtu.be/rddlpYLm0G0')
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/watch098/13')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 
 LOG_STR = "Current Cusomized Configurations are:-\n"
