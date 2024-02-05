@@ -132,6 +132,7 @@
   <img src="https://www.koyeb.com/static/images/deploy/button.svg" alt="Deploy On Koyeb">
 </a></p>
 <h3 align="center">
+  [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/fcJWOw?referralCode=Z9j3yI)
     ─「 ᴅᴇᴩʟᴏʏ ᴏɴ ʀᴀɪʟᴡᴀʏ 」─
 </h3>
 <p align="center"><a href="https://railway.app/deploy?template=https://github.com/NobiDeveloper/Nobita-Filter-Bot"">
