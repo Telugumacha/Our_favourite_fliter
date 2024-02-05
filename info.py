@@ -30,7 +30,7 @@ MELCOW_VID = environ.get("MELCOW_VID", "https://telegra.ph/file/96cec9ba062bc081
 SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/96cec9ba062bc081eee88.jpg")
 
 # Admins, Channels & User
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5136811766').split()]
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
@@ -80,7 +80,7 @@ APPROVED = environ.get("APPROVED_WELCOME", "on").lower()
 # Others
 IS_VERIFY = bool(environ.get('IS_VERIFY', False))
 VERIFY2_URL = environ.get('VERIFY2_URL', "moneycase.link")
-VERIFY2_API = environ.get('VERIFY2_API', "580a96594d27d0ece3b4734284ecff4d2246d57e)
+VERIFY2_API = environ.get('VERIFY2_API', "580a96594d27d0ece3b4734284ecff4d2246d57e")
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'moneycase.link')
 SHORTLINK_API = environ.get('SHORTLINK_API', '580a96594d27d0ece3b4734284ecff4d2246d57e')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
