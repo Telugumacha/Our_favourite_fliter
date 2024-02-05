@@ -140,7 +140,7 @@
 <h3 align="center">
     ─「 ᴅᴇᴩʟᴏʏ ᴏɴ ʀᴇɴᴅᴇʀ 」─
 </h3>
-<p align="center"><a href="https://render.com/deploy?repo=https://github.com/MR-JAGANMOHAN/Filter-Bot-advanced">
+<p align="center"><a href="https://render.com/deploy?repo=https://github.com/Telugumacha/Our_favourite_fliter">
 <img src="https://render.com/images/deploy-to-render-button.svg" alt="Deploy to Render">
 </a></p>
 <h3 align="center">
